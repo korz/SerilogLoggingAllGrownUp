@@ -10,8 +10,9 @@ namespace EnrichersFinal
             Log.Logger = new LoggerConfiguration()
                 .ReadFrom.AppSettings()
                 .Enrich.WithMachineName()
+                .Enrich.WithProperty("Version", "1.0.0")
                 .CreateLogger();
-
+            
             Log.Logger.Information("Starting Service");
 
             try

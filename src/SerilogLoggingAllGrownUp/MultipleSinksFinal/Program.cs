@@ -1,5 +1,6 @@
 ﻿using System;
 using Serilog;
+using Serilog.Events;
 
 namespace MultipleSinksFinal
 {
@@ -8,7 +9,7 @@ namespace MultipleSinksFinal
         static void Main(string[] args)
         {
             Log.Logger = new LoggerConfiguration()
-               .WriteTo.File(@"C:\Temp\logs\MultipleSinksFinal.txt")
+               .WriteTo.File(@"C:\Temp\logs\MultipleSinksFinal.txt", LogEventLevel.Error)
                .WriteTo.LiterateConsole()
                .CreateLogger();
 

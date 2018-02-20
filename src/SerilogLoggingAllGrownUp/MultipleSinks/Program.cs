@@ -7,24 +7,18 @@ namespace MultipleSinks
     {
         static void Main(string[] args)
         {
-            //Add References to Serilog.Sinks.Literate
+            ILogger logger = new LoggerConfiguration()
+                .WriteTo.RollingFile(pathFormat: @"C:\temp\logs\log.txt")
+                .CreateLogger();
 
-            Log.Logger = new LoggerConfiguration()
-                .WriteTo.File(@"C:\Temp\logs\log.txt").CreateLogger();
+            ILogger logger2 = new LoggerConfiguration()
+                .WriteTo.LiterateConsole()
+                .CreateLogger();
 
-            Log.Logger.Information("Starting Service");
-
-            try
-            {
-                Log.Logger.Warning("Trying to do something");
-                throw new InvalidOperationException("You can't do that.");
-            }
-            catch (Exception ex)
-            {
-                Log.Logger.Error(ex, "I don't know something happed.");
-            }
-
-            Log.Logger.Information("Stopping Service");
+            logger.Information("Did something");
+            logger2.Information("Log something to the console");
+            //logger.Information();
+            Console.ReadKey();
         }
     }
 }

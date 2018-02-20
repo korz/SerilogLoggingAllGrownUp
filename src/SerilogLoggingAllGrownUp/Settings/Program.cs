@@ -8,8 +8,7 @@ namespace Settings
         static void Main(string[] args)
         {
             Log.Logger = new LoggerConfiguration()
-               .WriteTo.File(@"C:\Temp\logs\MultipleSinksFinal.txt")
-               .WriteTo.LiterateConsole()
+                .ReadFrom.AppSettings()
                .CreateLogger();
 
             Log.Logger.Information("Starting Service");
