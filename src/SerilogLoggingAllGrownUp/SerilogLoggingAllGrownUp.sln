@@ -1,15 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.16
+VisualStudioVersion = 15.0.27130.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GettingStarted", "GettingStarted\GettingStarted.csproj", "{F840E7AB-6CD9-4103-85A4-791D8A45B63B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GettingStartedFinal", "GettingStartedFinal\GettingStartedFinal.csproj", "{A333E479-55D3-48D0-B23E-52701EF4457B}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleSinks", "MultipleSinks\MultipleSinks.csproj", "{37E67EBB-3DAD-41A1-9FF3-B69C6161C47C}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleSinksFinal", "MultipleSinksFinal\MultipleSinksFinal.csproj", "{807F666D-3113-4100-98A8-B3A988499707}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Settings", "Settings\Settings.csproj", "{20475F75-7432-4B8B-B918-75C9A79CC8FE}"
 EndProject
@@ -27,18 +23,10 @@ Global
 		{F840E7AB-6CD9-4103-85A4-791D8A45B63B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F840E7AB-6CD9-4103-85A4-791D8A45B63B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F840E7AB-6CD9-4103-85A4-791D8A45B63B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A333E479-55D3-48D0-B23E-52701EF4457B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A333E479-55D3-48D0-B23E-52701EF4457B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A333E479-55D3-48D0-B23E-52701EF4457B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A333E479-55D3-48D0-B23E-52701EF4457B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{37E67EBB-3DAD-41A1-9FF3-B69C6161C47C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{37E67EBB-3DAD-41A1-9FF3-B69C6161C47C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37E67EBB-3DAD-41A1-9FF3-B69C6161C47C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37E67EBB-3DAD-41A1-9FF3-B69C6161C47C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{807F666D-3113-4100-98A8-B3A988499707}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{807F666D-3113-4100-98A8-B3A988499707}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{807F666D-3113-4100-98A8-B3A988499707}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{807F666D-3113-4100-98A8-B3A988499707}.Release|Any CPU.Build.0 = Release|Any CPU
 		{20475F75-7432-4B8B-B918-75C9A79CC8FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{20475F75-7432-4B8B-B918-75C9A79CC8FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20475F75-7432-4B8B-B918-75C9A79CC8FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
