@@ -5,11 +5,7 @@ VisualStudioVersion = 16.0.29318.209
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GettingStarted", "GettingStarted\GettingStarted.csproj", "{F840E7AB-6CD9-4103-85A4-791D8A45B63B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleSinks", "MultipleSinks\MultipleSinks.csproj", "{37E67EBB-3DAD-41A1-9FF3-B69C6161C47C}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Settings", "Settings\Settings.csproj", "{20475F75-7432-4B8B-B918-75C9A79CC8FE}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnrichersFinal", "EnrichersFinal\EnrichersFinal.csproj", "{F4BC07AC-3C39-484E-8C04-374CA1096700}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enrichers", "EnrichersFinal\Enrichers.csproj", "{F4BC07AC-3C39-484E-8C04-374CA1096700}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateYourOwnSink", "CreateYourOwnSink\CreateYourOwnSink.csproj", "{4A1CAE80-48F4-4535-B62B-31E67BC06D8F}"
 EndProject
@@ -27,14 +23,6 @@ Global
 		{F840E7AB-6CD9-4103-85A4-791D8A45B63B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F840E7AB-6CD9-4103-85A4-791D8A45B63B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F840E7AB-6CD9-4103-85A4-791D8A45B63B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{37E67EBB-3DAD-41A1-9FF3-B69C6161C47C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{37E67EBB-3DAD-41A1-9FF3-B69C6161C47C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{37E67EBB-3DAD-41A1-9FF3-B69C6161C47C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{37E67EBB-3DAD-41A1-9FF3-B69C6161C47C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{20475F75-7432-4B8B-B918-75C9A79CC8FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{20475F75-7432-4B8B-B918-75C9A79CC8FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{20475F75-7432-4B8B-B918-75C9A79CC8FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{20475F75-7432-4B8B-B918-75C9A79CC8FE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F4BC07AC-3C39-484E-8C04-374CA1096700}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F4BC07AC-3C39-484E-8C04-374CA1096700}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4BC07AC-3C39-484E-8C04-374CA1096700}.Release|Any CPU.ActiveCfg = Release|Any CPU
