@@ -15,6 +15,7 @@ namespace Enrichers
         {
             Log.Logger = new LoggerConfiguration()
                 .ReadFrom.AppSettings()
+                .WriteTo.Seq("http://localhost:5341")
                 .Enrich.WithMachineName()
                 .Enrich.WithProperty("Version", "1.0.0")
                 .CreateLogger();
@@ -25,8 +26,6 @@ namespace Enrichers
 
         static void GlobalEnrichment()
         {
-            Log.Logger.Information("Starting Service");
-
             try
             {
                 Log.Logger.Warning("Trying to do something");
@@ -44,8 +43,7 @@ namespace Enrichers
 
         static void ContextualEnchriment()
         {
-            var log = new LoggerConfiguration().Enrich.FromLogContext();
-            log.Enrich.WithProperty("CustomerId", 12345);
+            var log = Log.Logger.ForContext("CustomerId", 12345);
 
             log.Information("Starting Service");
 

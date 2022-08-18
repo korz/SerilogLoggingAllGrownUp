@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateYourOwnSink", "Create
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seq", "Seq\Seq.csproj", "{5A1D2CF7-ED4A-4EA6-B593-2C4BE87B7B20}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicrosoftLoggerComparison", "MicrosoftLoggerComparison\MicrosoftLoggerComparison.csproj", "{2783C36D-117C-4580-8515-21F69D43E579}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncExample", "AsyncExample\AsyncExample.csproj", "{2BFAD8B1-6FC0-4684-9DB3-94B0D5506D94}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +35,10 @@ Global
 		{5A1D2CF7-ED4A-4EA6-B593-2C4BE87B7B20}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A1D2CF7-ED4A-4EA6-B593-2C4BE87B7B20}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A1D2CF7-ED4A-4EA6-B593-2C4BE87B7B20}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2783C36D-117C-4580-8515-21F69D43E579}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2783C36D-117C-4580-8515-21F69D43E579}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2783C36D-117C-4580-8515-21F69D43E579}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2783C36D-117C-4580-8515-21F69D43E579}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BFAD8B1-6FC0-4684-9DB3-94B0D5506D94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BFAD8B1-6FC0-4684-9DB3-94B0D5506D94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BFAD8B1-6FC0-4684-9DB3-94B0D5506D94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BFAD8B1-6FC0-4684-9DB3-94B0D5506D94}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
